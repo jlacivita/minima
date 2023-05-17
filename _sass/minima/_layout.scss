@@ -32,10 +32,10 @@
   position: absolute;
   top: 9px;
   right: $spacing-unit * .5;
-  background-color: $background-color;
   border: 1px solid $border-color-01;
   border-radius: 5px;
-  text-align: right;
+  background-color: #eee;
+  text-align: left;
 
   .nav-trigger {
     display: none;
@@ -92,8 +92,6 @@
     left: 0;
     width: 400px;
     border: none;
-    background-color: #eee;
-    text-align: left;
 
     label[for="nav-trigger"] {
       display: none;
