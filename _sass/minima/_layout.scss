@@ -87,10 +87,12 @@
   }
 
   @media screen and (min-width: $on-medium) {
-    position: static;
-    float: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
     border: none;
-    background-color: inherit;
+    background-color: #eee;
 
     label[for="nav-trigger"] {
       display: none;
