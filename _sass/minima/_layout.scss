@@ -36,7 +36,6 @@
   border-radius: 5px;
   background-color: #eee;
   text-align: left;
-  overflow: scroll;
 
   .nav-trigger {
     display: none;
@@ -88,7 +87,6 @@
   }
 
   @media screen and (min-width: $on-large) {
-    position: fixed;
     top: 0;
     left: 0;
     width: 400px;
