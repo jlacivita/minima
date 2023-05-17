@@ -54,6 +54,10 @@
     }
   }
 
+  li {
+    list-style: none;
+  }
+  
   label[for="nav-trigger"] {
     display: block;
     float: right;
