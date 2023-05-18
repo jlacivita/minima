@@ -16,6 +16,7 @@
   font-weight: 700;
   padding: 10px;
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
+  margin: auto;
 
   h1 {
     float: left;
