@@ -10,6 +10,25 @@
   position: relative;
 }
 
+  @media screen and (min-width: $on-large) {
+    .beta {
+      position: fixed;
+      top: -50px;
+      right: -150px;
+      background: #eee;
+      width: 400px;
+      height: 200px;
+      transform: rotate(45deg);
+      text-align: center;
+      font-size: 1.5em;
+      span {
+        position: relative;
+        top: 50px;
+        top: 120px;
+      }
+    }  
+}
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
@@ -107,23 +126,6 @@
     input ~ .trigger {
       display: block;
     }
-
-    .beta {
-      position: fixed;
-      top: -50px;
-      right: -150px;
-      background: #eee;
-      width: 400px;
-      height: 200px;
-      transform: rotate(45deg);
-      text-align: center;
-      font-size: 1.5em;
-      span {
-        position: relative;
-        top: 50px;
-        top: 120px;
-      }
-    }  
 
     .page-link {
       display: inline;
