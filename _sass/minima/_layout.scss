@@ -17,6 +17,7 @@
   padding: 10px;
   max-width: calc(#{$content-width} - (#{$spacing-unit}));
   margin: auto;
+  border: 14px white solid;
 
   h1 {
     float: left;
@@ -33,6 +34,7 @@
       transform: rotate(45deg);
       padding: 0;
       font-size: 1.25em;
+      border: 0;
       span {
         position: relative;
         top: 50px;
