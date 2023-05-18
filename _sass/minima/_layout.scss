@@ -15,6 +15,11 @@
   text-align: center;
   font-weight: 700;
   padding: 10px;
+  max-width: calc(#{$content-width} - (#{$spacing-unit}));
+
+  h1 {
+    float: left;
+  }
 }
 
   @media screen and (min-width: $on-large) {
@@ -30,6 +35,10 @@
       span {
         position: relative;
         top: 50px;
+      }
+      
+      h1 {
+        float: none;
       }
     }  
 }
