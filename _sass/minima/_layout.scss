@@ -30,6 +30,12 @@ pre.highlight {
   }
 }
 
+body blockquote {
+  color: inherit;
+  font-size: inherit;
+  font-style: inherit;
+}
+
   @media screen and (min-width: $on-large) {
     .beta {
       position: fixed;
